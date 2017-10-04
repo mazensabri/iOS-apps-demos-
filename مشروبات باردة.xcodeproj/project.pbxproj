@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11E736F747C04E349F38657C /* Pods______________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4EA731D72623D2F9802D1F /* Pods______________.framework */; };
+		6069698E49303CFDA863A047 /* Pods______________Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BABFC8F3EF5983E665066AD /* Pods______________Tests.framework */; };
+		BA061A4C1E866F390043AFDC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA061A4B1E866F390043AFDC /* GoogleService-Info.plist */; };
+		BA06EE911E8065C00097DA4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06EE901E8065C00097DA4A /* AppDelegate.swift */; };
+		BA06EE931E8065C00097DA4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06EE921E8065C00097DA4A /* ViewController.swift */; };
+		BA06EE961E8065C00097DA4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA06EE941E8065C00097DA4A /* Main.storyboard */; };
+		BA06EE991E8065C00097DA4A /* _____________.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA06EE971E8065C00097DA4A /* _____________.xcdatamodeld */; };
+		BA06EE9B1E8065C00097DA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA06EE9A1E8065C00097DA4A /* Assets.xcassets */; };
+		BA06EE9E1E8065C00097DA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA06EE9C1E8065C00097DA4A /* LaunchScreen.storyboard */; };
+		BA06EEA91E8065C00097DA4A /* _____________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06EEA81E8065C00097DA4A /* _____________Tests.swift */; };
+		BA06EEB41E8065C00097DA4A /* _____________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06EEB31E8065C00097DA4A /* _____________UITests.swift */; };
+		BA06EED21E8065DE0097DA4A /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA06EEC11E8065DE0097DA4A /* about.jpg */; };
+		BA06EED31E8065DE0097DA4A /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = BA06EEC21E8065DE0097DA4A /* back.png */; };
+		BA06EED41E8065DE0097DA4A /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = BA06EEC31E8065DE0097DA4A /* bar.png */; };
+		BA06EED51E8065DE0097DA4A /* bg_home.png in Resources */ = {isa = PBXBuildFile; fileRef = BA06EEC41E8065DE0097DA4A /* bg_home.png */; };
+		BA06EED61E8065DE0097DA4A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BA06EEC51E8065DE0097DA4A /* bg.png */; };
+		BA06EED71E8065DE0097DA4A /* bt_about.png in Resources */ = {isa = PBXBuildFile; fileRef = BA06EEC61E8065DE0097DA4A /* bt_about.png */; };
+		BA06EED81E8065DE0097DA4A /* bt.png in Resources */ = {isa = PBXBuildFile; fileRef = BA06EEC71E8065DE0097DA4A /* bt.png */; };
+		BA06EED91E8065DE0097DA4A /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA06EEC81E8065DE0097DA4A /* home.jpg */; };
+		BA06EEDA1E8065DE0097DA4A /* icon_web.png in Resources */ = {isa = PBXBuildFile; fileRef = BA06EEC91E8065DE0097DA4A /* icon_web.png */; };
+		BA06EEDC1E8065DE0097DA4A /* logo_about.png in Resources */ = {isa = PBXBuildFile; fileRef = BA06EECB1E8065DE0097DA4A /* logo_about.png */; };
+		BA06EEDD1E8065DE0097DA4A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BA06EECC1E8065DE0097DA4A /* logo.png */; };
+		BA06EEDE1E8065DE0097DA4A /* Screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA06EECD1E8065DE0097DA4A /* Screen.jpg */; };
+		BA06EEDF1E8065DE0097DA4A /* shape_about.png in Resources */ = {isa = PBXBuildFile; fileRef = BA06EECE1E8065DE0097DA4A /* shape_about.png */; };
+		BA06EEE01E8065DE0097DA4A /* shape2.png in Resources */ = {isa = PBXBuildFile; fileRef = BA06EECF1E8065DE0097DA4A /* shape2.png */; };
+		BA06EEE11E8065DE0097DA4A /* small_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BA06EED01E8065DE0097DA4A /* small_logo.png */; };
+		BA06EEE21E8065DE0097DA4A /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA06EED11E8065DE0097DA4A /* splash.jpg */; };
+		BA06EEE71E812F450097DA4A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06EEE61E812F450097DA4A /* ViewController2.swift */; };
+		BA06EEE91E81345C0097DA4A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06EEE81E81345C0097DA4A /* CollectionViewCell.swift */; };
+		BA06EEEB1E81393E0097DA4A /* Fooditem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06EEEA1E81393D0097DA4A /* Fooditem.swift */; };
+		BA06EEED1E813D000097DA4A /* Foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA06EEEC1E813CFF0097DA4A /* Foods.plist */; };
+		BA06EEEF1E8150E90097DA4A /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06EEEE1E8150E90097DA4A /* ViewController3.swift */; };
+		BAA9EB921E86BB2F008383C9 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA9EB901E86BB2F008383C9 /* Cairo-Bold.ttf */; };
+		BAA9EB931E86BB2F008383C9 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA9EB911E86BB2F008383C9 /* Cairo-SemiBold.ttf */; };
+		CD81D1B3CFAAD520E4195750 /* Pods______________UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E368CDC02400602684DA0F5B /* Pods______________UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA06EEA51E8065C00097DA4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA06EE851E8065BF0097DA4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA06EE8C1E8065BF0097DA4A;
+			remoteInfo = "مشروبات باردة";
+		};
+		BA06EEB01E8065C00097DA4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA06EE851E8065BF0097DA4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA06EE8C1E8065BF0097DA4A;
+			remoteInfo = "مشروبات باردة";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B4EA731D72623D2F9802D1F /* Pods______________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______________.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BABFC8F3EF5983E665066AD /* Pods______________Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______________Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F1F808E226918A931C04BA /* Pods-مشروبات باردةTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-مشروبات باردةTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-مشروبات باردةTests/Pods-مشروبات باردةTests.release.xcconfig"; sourceTree = "<group>"; };
+		890620467461DA1321E9D2F4 /* Pods-مشروبات باردة.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-مشروبات باردة.debug.xcconfig"; path = "Pods/Target Support Files/Pods-مشروبات باردة/Pods-مشروبات باردة.debug.xcconfig"; sourceTree = "<group>"; };
+		A06987256A6AA839297E1DC3 /* Pods-مشروبات باردةTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-مشروبات باردةTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-مشروبات باردةTests/Pods-مشروبات باردةTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E2A6FE4FC57E1B0EB265C9 /* Pods-مشروبات باردةUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-مشروبات باردةUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-مشروبات باردةUITests/Pods-مشروبات باردةUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA061A4B1E866F390043AFDC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA06EE8D1E8065C00097DA4A /* مشروبات باردة.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "مشروبات باردة.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA06EE901E8065C00097DA4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA06EE921E8065C00097DA4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA06EE951E8065C00097DA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA06EE981E8065C00097DA4A /* _____________.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____________.xcdatamodel"; sourceTree = "<group>"; };
+		BA06EE9A1E8065C00097DA4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA06EE9D1E8065C00097DA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA06EE9F1E8065C00097DA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA06EEA41E8065C00097DA4A /* مشروبات باردةTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "مشروبات باردةTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA06EEA81E8065C00097DA4A /* _____________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____________Tests.swift"; sourceTree = "<group>"; };
+		BA06EEAA1E8065C00097DA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA06EEAF1E8065C00097DA4A /* مشروبات باردةUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "مشروبات باردةUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA06EEB31E8065C00097DA4A /* _____________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____________UITests.swift"; sourceTree = "<group>"; };
+		BA06EEB51E8065C00097DA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA06EEC11E8065DE0097DA4A /* about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = about.jpg; sourceTree = "<group>"; };
+		BA06EEC21E8065DE0097DA4A /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		BA06EEC31E8065DE0097DA4A /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		BA06EEC41E8065DE0097DA4A /* bg_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_home.png; sourceTree = "<group>"; };
+		BA06EEC51E8065DE0097DA4A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		BA06EEC61E8065DE0097DA4A /* bt_about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_about.png; sourceTree = "<group>"; };
+		BA06EEC71E8065DE0097DA4A /* bt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt.png; sourceTree = "<group>"; };
+		BA06EEC81E8065DE0097DA4A /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpg; sourceTree = "<group>"; };
+		BA06EEC91E8065DE0097DA4A /* icon_web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_web.png; sourceTree = "<group>"; };
+		BA06EECB1E8065DE0097DA4A /* logo_about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_about.png; sourceTree = "<group>"; };
+		BA06EECC1E8065DE0097DA4A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		BA06EECD1E8065DE0097DA4A /* Screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Screen.jpg; sourceTree = "<group>"; };
+		BA06EECE1E8065DE0097DA4A /* shape_about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shape_about.png; sourceTree = "<group>"; };
+		BA06EECF1E8065DE0097DA4A /* shape2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shape2.png; sourceTree = "<group>"; };
+		BA06EED01E8065DE0097DA4A /* small_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_logo.png; sourceTree = "<group>"; };
+		BA06EED11E8065DE0097DA4A /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		BA06EEE61E812F450097DA4A /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		BA06EEE81E81345C0097DA4A /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		BA06EEEA1E81393D0097DA4A /* Fooditem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fooditem.swift; sourceTree = "<group>"; };
+		BA06EEEC1E813CFF0097DA4A /* Foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Foods.plist; sourceTree = "<group>"; };
+		BA06EEEE1E8150E90097DA4A /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		BAA9EB901E86BB2F008383C9 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		BAA9EB911E86BB2F008383C9 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		C5811384ED04A9A2C46677CA /* Pods-مشروبات باردة.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-مشروبات باردة.release.xcconfig"; path = "Pods/Target Support Files/Pods-مشروبات باردة/Pods-مشروبات باردة.release.xcconfig"; sourceTree = "<group>"; };
+		E368CDC02400602684DA0F5B /* Pods______________UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______________UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F233AAA005A3162E588A58BA /* Pods-مشروبات باردةUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-مشروبات باردةUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-مشروبات باردةUITests/Pods-مشروبات باردةUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA06EE8A1E8065BF0097DA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E736F747C04E349F38657C /* Pods______________.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA06EEA11E8065C00097DA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6069698E49303CFDA863A047 /* Pods______________Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA06EEAC1E8065C00097DA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD81D1B3CFAAD520E4195750 /* Pods______________UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA06EE841E8065BF0097DA4A = {
+			isa = PBXGroup;
+			children = (
+				BA06EE8F1E8065C00097DA4A /* مشروبات باردة */,
+				BA06EEA71E8065C00097DA4A /* مشروبات باردةTests */,
+				BA06EEB21E8065C00097DA4A /* مشروبات باردةUITests */,
+				BA06EE8E1E8065C00097DA4A /* Products */,
+				BA0F13355165B3C86CD4166D /* Pods */,
+				CBCD0C29F8D49F0A2FE6D0F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA06EE8E1E8065C00097DA4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA06EE8D1E8065C00097DA4A /* مشروبات باردة.app */,
+				BA06EEA41E8065C00097DA4A /* مشروبات باردةTests.xctest */,
+				BA06EEAF1E8065C00097DA4A /* مشروبات باردةUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA06EE8F1E8065C00097DA4A /* مشروبات باردة */ = {
+			isa = PBXGroup;
+			children = (
+				BA06EE901E8065C00097DA4A /* AppDelegate.swift */,
+				BAA9EB941E86C6A6008383C9 /* Controllers */,
+				BA06EE941E8065C00097DA4A /* Main.storyboard */,
+				BA06EE9A1E8065C00097DA4A /* Assets.xcassets */,
+				BAA9EB901E86BB2F008383C9 /* Cairo-Bold.ttf */,
+				BAA9EB911E86BB2F008383C9 /* Cairo-SemiBold.ttf */,
+				BA06EE9C1E8065C00097DA4A /* LaunchScreen.storyboard */,
+				BA06EE9F1E8065C00097DA4A /* Info.plist */,
+				BA06EE971E8065C00097DA4A /* _____________.xcdatamodeld */,
+				BA06EEE31E8065F50097DA4A /* photos */,
+				BAA9EB951E86C6B6008383C9 /* Cells */,
+				BA06EEEA1E81393D0097DA4A /* Fooditem.swift */,
+				BA06EEEC1E813CFF0097DA4A /* Foods.plist */,
+				BA061A4B1E866F390043AFDC /* GoogleService-Info.plist */,
+			);
+			path = "مشروبات باردة";
+			sourceTree = "<group>";
+		};
+		BA06EEA71E8065C00097DA4A /* مشروبات باردةTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA06EEA81E8065C00097DA4A /* _____________Tests.swift */,
+				BA06EEAA1E8065C00097DA4A /* Info.plist */,
+			);
+			path = "مشروبات باردةTests";
+			sourceTree = "<group>";
+		};
+		BA06EEB21E8065C00097DA4A /* مشروبات باردةUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA06EEB31E8065C00097DA4A /* _____________UITests.swift */,
+				BA06EEB51E8065C00097DA4A /* Info.plist */,
+			);
+			path = "مشروبات باردةUITests";
+			sourceTree = "<group>";
+		};
+		BA06EEE31E8065F50097DA4A /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				BA06EEC11E8065DE0097DA4A /* about.jpg */,
+				BA06EEC31E8065DE0097DA4A /* bar.png */,
+				BA06EEC41E8065DE0097DA4A /* bg_home.png */,
+				BA06EEC21E8065DE0097DA4A /* back.png */,
+				BA06EEC51E8065DE0097DA4A /* bg.png */,
+				BA06EEC61E8065DE0097DA4A /* bt_about.png */,
+				BA06EEC71E8065DE0097DA4A /* bt.png */,
+				BA06EEC81E8065DE0097DA4A /* home.jpg */,
+				BA06EECD1E8065DE0097DA4A /* Screen.jpg */,
+				BA06EEC91E8065DE0097DA4A /* icon_web.png */,
+				BA06EECB1E8065DE0097DA4A /* logo_about.png */,
+				BA06EECC1E8065DE0097DA4A /* logo.png */,
+				BA06EECE1E8065DE0097DA4A /* shape_about.png */,
+				BA06EECF1E8065DE0097DA4A /* shape2.png */,
+				BA06EED01E8065DE0097DA4A /* small_logo.png */,
+				BA06EED11E8065DE0097DA4A /* splash.jpg */,
+			);
+			name = photos;
+			sourceTree = "<group>";
+		};
+		BA0F13355165B3C86CD4166D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				890620467461DA1321E9D2F4 /* Pods-مشروبات باردة.debug.xcconfig */,
+				C5811384ED04A9A2C46677CA /* Pods-مشروبات باردة.release.xcconfig */,
+				A06987256A6AA839297E1DC3 /* Pods-مشروبات باردةTests.debug.xcconfig */,
+				70F1F808E226918A931C04BA /* Pods-مشروبات باردةTests.release.xcconfig */,
+				F233AAA005A3162E588A58BA /* Pods-مشروبات باردةUITests.debug.xcconfig */,
+				A4E2A6FE4FC57E1B0EB265C9 /* Pods-مشروبات باردةUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BAA9EB941E86C6A6008383C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA06EE921E8065C00097DA4A /* ViewController.swift */,
+				BA06EEE61E812F450097DA4A /* ViewController2.swift */,
+				BA06EEEE1E8150E90097DA4A /* ViewController3.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BAA9EB951E86C6B6008383C9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BA06EEE81E81345C0097DA4A /* CollectionViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		CBCD0C29F8D49F0A2FE6D0F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B4EA731D72623D2F9802D1F /* Pods______________.framework */,
+				5BABFC8F3EF5983E665066AD /* Pods______________Tests.framework */,
+				E368CDC02400602684DA0F5B /* Pods______________UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA06EE8C1E8065BF0097DA4A /* مشروبات باردة */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA06EEB81E8065C00097DA4A /* Build configuration list for PBXNativeTarget "مشروبات باردة" */;
+			buildPhases = (
+				18811B36F47B4168DE50BD01 /* [CP] Check Pods Manifest.lock */,
+				BA06EE891E8065BF0097DA4A /* Sources */,
+				BA06EE8A1E8065BF0097DA4A /* Frameworks */,
+				BA06EE8B1E8065BF0097DA4A /* Resources */,
+				E07952E41D5E3B396F8657DD /* [CP] Embed Pods Frameworks */,
+				F8A9E76DC62B9EBA4455C510 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "مشروبات باردة";
+			productName = "مشروبات باردة";
+			productReference = BA06EE8D1E8065C00097DA4A /* مشروبات باردة.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA06EEA31E8065C00097DA4A /* مشروبات باردةTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA06EEBB1E8065C00097DA4A /* Build configuration list for PBXNativeTarget "مشروبات باردةTests" */;
+			buildPhases = (
+				8A5A922C09A52710542E2546 /* [CP] Check Pods Manifest.lock */,
+				BA06EEA01E8065C00097DA4A /* Sources */,
+				BA06EEA11E8065C00097DA4A /* Frameworks */,
+				BA06EEA21E8065C00097DA4A /* Resources */,
+				37D6C8C14A66BB5C8E0F6AFE /* [CP] Embed Pods Frameworks */,
+				57C0B30C8BC2ADA2671EB12E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA06EEA61E8065C00097DA4A /* PBXTargetDependency */,
+			);
+			name = "مشروبات باردةTests";
+			productName = "مشروبات باردةTests";
+			productReference = BA06EEA41E8065C00097DA4A /* مشروبات باردةTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA06EEAE1E8065C00097DA4A /* مشروبات باردةUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA06EEBE1E8065C00097DA4A /* Build configuration list for PBXNativeTarget "مشروبات باردةUITests" */;
+			buildPhases = (
+				7A745E21E06D809F60D0C5FB /* [CP] Check Pods Manifest.lock */,
+				BA06EEAB1E8065C00097DA4A /* Sources */,
+				BA06EEAC1E8065C00097DA4A /* Frameworks */,
+				BA06EEAD1E8065C00097DA4A /* Resources */,
+				FC4334DE1A9E6F6AC6D10890 /* [CP] Embed Pods Frameworks */,
+				32855D7EB436F67D3CDCFC6B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA06EEB11E8065C00097DA4A /* PBXTargetDependency */,
+			);
+			name = "مشروبات باردةUITests";
+			productName = "مشروبات باردةUITests";
+			productReference = BA06EEAF1E8065C00097DA4A /* مشروبات باردةUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA06EE851E8065BF0097DA4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = mazensabri;
+				TargetAttributes = {
+					BA06EE8C1E8065BF0097DA4A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					BA06EEA31E8065C00097DA4A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA06EE8C1E8065BF0097DA4A;
+					};
+					BA06EEAE1E8065C00097DA4A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA06EE8C1E8065BF0097DA4A;
+					};
+				};
+			};
+			buildConfigurationList = BA06EE881E8065BF0097DA4A /* Build configuration list for PBXProject "مشروبات باردة" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA06EE841E8065BF0097DA4A;
+			productRefGroup = BA06EE8E1E8065C00097DA4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA06EE8C1E8065BF0097DA4A /* مشروبات باردة */,
+				BA06EEA31E8065C00097DA4A /* مشروبات باردةTests */,
+				BA06EEAE1E8065C00097DA4A /* مشروبات باردةUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA06EE8B1E8065BF0097DA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA06EE9E1E8065C00097DA4A /* LaunchScreen.storyboard in Resources */,
+				BA06EEDA1E8065DE0097DA4A /* icon_web.png in Resources */,
+				BA06EED31E8065DE0097DA4A /* back.png in Resources */,
+				BA06EEED1E813D000097DA4A /* Foods.plist in Resources */,
+				BA06EED91E8065DE0097DA4A /* home.jpg in Resources */,
+				BA06EEE21E8065DE0097DA4A /* splash.jpg in Resources */,
+				BA06EED61E8065DE0097DA4A /* bg.png in Resources */,
+				BA06EE9B1E8065C00097DA4A /* Assets.xcassets in Resources */,
+				BA06EED71E8065DE0097DA4A /* bt_about.png in Resources */,
+				BA06EED81E8065DE0097DA4A /* bt.png in Resources */,
+				BAA9EB931E86BB2F008383C9 /* Cairo-SemiBold.ttf in Resources */,
+				BA06EED41E8065DE0097DA4A /* bar.png in Resources */,
+				BA06EEDE1E8065DE0097DA4A /* Screen.jpg in Resources */,
+				BA06EEE11E8065DE0097DA4A /* small_logo.png in Resources */,
+				BA061A4C1E866F390043AFDC /* GoogleService-Info.plist in Resources */,
+				BAA9EB921E86BB2F008383C9 /* Cairo-Bold.ttf in Resources */,
+				BA06EE961E8065C00097DA4A /* Main.storyboard in Resources */,
+				BA06EED51E8065DE0097DA4A /* bg_home.png in Resources */,
+				BA06EEDD1E8065DE0097DA4A /* logo.png in Resources */,
+				BA06EEDC1E8065DE0097DA4A /* logo_about.png in Resources */,
+				BA06EED21E8065DE0097DA4A /* about.jpg in Resources */,
+				BA06EEE01E8065DE0097DA4A /* shape2.png in Resources */,
+				BA06EEDF1E8065DE0097DA4A /* shape_about.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA06EEA21E8065C00097DA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA06EEAD1E8065C00097DA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18811B36F47B4168DE50BD01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32855D7EB436F67D3CDCFC6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-مشروبات باردةUITests/Pods-مشروبات باردةUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37D6C8C14A66BB5C8E0F6AFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-مشروبات باردةTests/Pods-مشروبات باردةTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57C0B30C8BC2ADA2671EB12E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-مشروبات باردةTests/Pods-مشروبات باردةTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A745E21E06D809F60D0C5FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A5A922C09A52710542E2546 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E07952E41D5E3B396F8657DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-مشروبات باردة/Pods-مشروبات باردة-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A9E76DC62B9EBA4455C510 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-مشروبات باردة/Pods-مشروبات باردة-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4334DE1A9E6F6AC6D10890 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-مشروبات باردةUITests/Pods-مشروبات باردةUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA06EE891E8065BF0097DA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA06EEEB1E81393E0097DA4A /* Fooditem.swift in Sources */,
+				BA06EEE91E81345C0097DA4A /* CollectionViewCell.swift in Sources */,
+				BA06EE931E8065C00097DA4A /* ViewController.swift in Sources */,
+				BA06EEE71E812F450097DA4A /* ViewController2.swift in Sources */,
+				BA06EE911E8065C00097DA4A /* AppDelegate.swift in Sources */,
+				BA06EEEF1E8150E90097DA4A /* ViewController3.swift in Sources */,
+				BA06EE991E8065C00097DA4A /* _____________.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA06EEA01E8065C00097DA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA06EEA91E8065C00097DA4A /* _____________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA06EEAB1E8065C00097DA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA06EEB41E8065C00097DA4A /* _____________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA06EEA61E8065C00097DA4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA06EE8C1E8065BF0097DA4A /* مشروبات باردة */;
+			targetProxy = BA06EEA51E8065C00097DA4A /* PBXContainerItemProxy */;
+		};
+		BA06EEB11E8065C00097DA4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA06EE8C1E8065BF0097DA4A /* مشروبات باردة */;
+			targetProxy = BA06EEB01E8065C00097DA4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA06EE941E8065C00097DA4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA06EE951E8065C00097DA4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA06EE9C1E8065C00097DA4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA06EE9D1E8065C00097DA4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA06EEB61E8065C00097DA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA06EEB71E8065C00097DA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA06EEB91E8065C00097DA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890620467461DA1321E9D2F4 /* Pods-مشروبات باردة.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "مشروبات باردة/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazensabri.-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA06EEBA1E8065C00097DA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5811384ED04A9A2C46677CA /* Pods-مشروبات باردة.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "مشروبات باردة/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazensabri.-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BA06EEBC1E8065C00097DA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06987256A6AA839297E1DC3 /* Pods-مشروبات باردةTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "مشروبات باردةTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazensabri.-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/مشروبات باردة.app/مشروبات باردة";
+			};
+			name = Debug;
+		};
+		BA06EEBD1E8065C00097DA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F1F808E226918A931C04BA /* Pods-مشروبات باردةTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "مشروبات باردةTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazensabri.-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/مشروبات باردة.app/مشروبات باردة";
+			};
+			name = Release;
+		};
+		BA06EEBF1E8065C00097DA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F233AAA005A3162E588A58BA /* Pods-مشروبات باردةUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "مشروبات باردةUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazensabri.-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "مشروبات باردة";
+			};
+			name = Debug;
+		};
+		BA06EEC01E8065C00097DA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E2A6FE4FC57E1B0EB265C9 /* Pods-مشروبات باردةUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "مشروبات باردةUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazensabri.-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "مشروبات باردة";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA06EE881E8065BF0097DA4A /* Build configuration list for PBXProject "مشروبات باردة" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA06EEB61E8065C00097DA4A /* Debug */,
+				BA06EEB71E8065C00097DA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA06EEB81E8065C00097DA4A /* Build configuration list for PBXNativeTarget "مشروبات باردة" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA06EEB91E8065C00097DA4A /* Debug */,
+				BA06EEBA1E8065C00097DA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA06EEBB1E8065C00097DA4A /* Build configuration list for PBXNativeTarget "مشروبات باردةTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA06EEBC1E8065C00097DA4A /* Debug */,
+				BA06EEBD1E8065C00097DA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA06EEBE1E8065C00097DA4A /* Build configuration list for PBXNativeTarget "مشروبات باردةUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA06EEBF1E8065C00097DA4A /* Debug */,
+				BA06EEC01E8065C00097DA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA06EE971E8065C00097DA4A /* _____________.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA06EE981E8065C00097DA4A /* _____________.xcdatamodel */,
+			);
+			currentVersion = BA06EE981E8065C00097DA4A /* _____________.xcdatamodel */;
+			path = "_____________.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA06EE851E8065BF0097DA4A /* Project object */;
+}
